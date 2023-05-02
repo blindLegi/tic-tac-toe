@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/svg/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>tic-tac-toe</title>
+</head>
+<body>
+    <main class="main">
+        <div class="main-wrapper">
+            <div class="stats">
+                <span class="text x-wins">Xs: 0</span><span class="text draws">Draws: 0</span><span class="text o-wins"> Os: 0</span>
+            </div>
+            <div class="area">
+                <div class="box" id="top-left"></div>
+                <div class="box"></div>
+                <div class="box" id='top-right'></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box" id='bottom-left'></div>
+                <div class="box"></div>
+                <div class="box" id='bottom-right'></div>
+            </div>
+        </div>
+        <div class="result-wrapper">
+            <div class="overlay"></div>
+            <div class="window">
+                <div class="content">content</div>
+                <div class="btn-close">Start new game</div>
+                <div class="btn-reset">Reset score</div>
+            </div>
+        </div>
+       
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <a href="https://github.com/blindLegi" class="github-link"><img src="./assets/svg/GitHub-Emblem.png" alt="github-icon" class="github-icon icon"></a>
+            <div class="copy-year">
+                <span class="copyright">&#169</span>
+                <span class="year">2022</span>
+            </div>
+            <a href="https://rs.school/js-stage0/" class="rss-linl"><img src="./assets/svg/rs_school_js.svg" alt="rss-icon" class="rss-icon icon"></a>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
